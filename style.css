@@ -1,0 +1,53 @@
+.container {
+  margin-bottom: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+h1 {
+  font-weight: bold;
+}
+.orange-bg {
+  background-color: #fceae8;
+  border-radius: 10px;
+}
+.carousel-item {
+  padding: 20px 40px;
+}
+.price {
+  color: #ff136f;
+}
+.buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
+
+.categories h1 {
+  color: white;
+}
+.categories img{
+    width: 100px;
+}
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.cat1 {
+    background-image: linear-gradient(45deg,rgb(219, 177, 98) ,orange);
+}
+.cat2 {
+    background-image: linear-gradient(45deg,rgb(235, 150, 233), orchid);
+}
+.cat3 {
+    background-image: linear-gradient(45deg,rgb(157, 157, 235), blue);
+}
+
+.align-items-center {
+  align-items: center !important;
+}
